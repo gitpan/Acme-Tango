@@ -1,5 +1,8 @@
 Revision history for Perl extension Acme::Tango.
 
+0.02  Mon Oct  7 09:07:05 2002
+	- fixed dependancies issue
+
 0.01  Sat Oct  5 16:48:03 2002
 	- original version; created by h2xs 1.2 with options
 		-n Acme::Tango
