@@ -1,6 +1,6 @@
 package Acme::Tango;
 
-$VERSION = "0.03";
+$VERSION = "0.04";
 use strict; 
 use Graphics::RGBManipulate;
 
@@ -8,7 +8,7 @@ sub drink {
 
 	return Graphics::RGBManipulate::tweak(
                        hex => shift,
-                       hue => 60
+                       hue => 40
                )
 
 }
@@ -42,6 +42,7 @@ Pete Sergeant - pete@clueball.com
 =head1 SEE ALSO
 
 http://www.tango.com
+http://grou.ch/tango.html -- output of colour_swatches.pl
 
 =head1 COPYRIGHT
 

@@ -1,5 +1,9 @@
 Revision history for Perl extension Acme::Tango.
 
+0.04  Thu Oct 10 07:47:00 2002
+	- Made the output more orange
+	- Added colour_swatches.pl as an example
+
 0.03  Thu Oct 10 06:59:00 2002
 	- fixed the docs (hat-tip: Mike Castle)
 
