@@ -1,6 +1,6 @@
 package Acme::Tango;
 
-$VERSION = "0.02";
+$VERSION = "0.03";
 use strict; 
 use Graphics::RGBManipulate;
 
@@ -23,7 +23,7 @@ Acme::Tango - Turn colours orange
 
 =head1 SYNOPSIS
 
-	use Acme::Orange;
+	use Acme::Tango;
 	
 	my $hex_string = Acme::Tango::drink('#00bbff');
 	
