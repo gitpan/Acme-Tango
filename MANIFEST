@@ -5,3 +5,4 @@ MANIFEST
 Makefile.PL
 Tango.pm
 test.pl
+META.yml                                 Module meta-data (added by MakeMaker)

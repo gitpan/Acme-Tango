@@ -9,6 +9,10 @@ use Acme::Tango;
 
 print qq!<html><head><title>Acme::Tango Example</title></head><body><table>!;
 
+for my $flavour (qw(orange lemon apple)) {
+
+	print "<tr><td colspan = '2'>$flavour</td></tr>\n";
+
 for (1..10) {
 
 	# Create colour
@@ -25,7 +29,7 @@ for (1..10) {
 		sprintf("%02X", $blue);
 
 	# Tango it
-	my $hex_orange = Acme::Tango::drink($hex_string);
+	my $hex_orange = Acme::Tango::drink($hex_string, $flavour);
 
 	# Print out a line with it
 	print qq!
@@ -34,6 +38,7 @@ for (1..10) {
 		<td bgcolor = "$hex_orange">$hex_orange</td>
 	</tr>!;
 
+}
 }	
 
 print qq!</table></body></html>\n!;
