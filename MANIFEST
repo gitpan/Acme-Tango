@@ -1,8 +1,10 @@
 README
-colour_swatches.pl
+eg/colour_swatches.pl
 Changes
 MANIFEST
 Makefile.PL
-Tango.pm
-test.pl
+lib/Acme/Tango.pm
 META.yml                                 Module meta-data (added by MakeMaker)
+t/010_color_tests_010_basic.t
+t/000_pod_010_pod_integrity.t
+t/000_pod_020_pod_coverage.t

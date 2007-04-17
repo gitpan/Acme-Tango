@@ -4,7 +4,4 @@ Given a hex string, Acme::Tango returns a hex-string
 of the equivalent shade of orange (same value and
 saturation).
 
-http://cou.ch/tango.html shows the output of the
-included colour_swatches.pl program.
-
-Copyright 2005 - pete@clueball.com
+Copyright 2007 - pete@clueball.com

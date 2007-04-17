@@ -1,11 +1,12 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         Acme-Tango
-version:      0.05
-version_from: Tango.pm
+version:      0.06
+version_from: lib/Acme/Tango.pm
 installdirs:  site
 requires:
-    Graphics::RGBManipulate:       
+    Graphics::RGBManipulate:       0.01
+    Test::More:                    0.01
 
 distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.17
+generated_by: ExtUtils::MakeMaker version 6.30

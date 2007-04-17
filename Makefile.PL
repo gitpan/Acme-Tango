@@ -3,8 +3,11 @@ use ExtUtils::MakeMaker;
 # the contents of the Makefile that is written.
 WriteMakefile(
     'NAME'		=> 'Acme::Tango',
-    'VERSION_FROM'	=> 'Tango.pm', # finds $VERSION
-    'PREREQ_PM'		=> {Graphics::RGBManipulate}, # e.g., Module::Name => 1.1
+    'VERSION_FROM'	=> 'lib/Acme/Tango.pm', # finds $VERSION
+    'PREREQ_PM'		=> {
+			'Graphics::RGBManipulate' => '0.01',
+			'Test::More'              => '0.01',
+		}, # e.g., Module::Name => 1.1
     'LIBS'		=> [''], # e.g., '-lm'
     'DEFINE'		=> '', # e.g., '-DHAVE_SOMETHING'
     'INC'		=> '', # e.g., '-I/usr/include/other'
